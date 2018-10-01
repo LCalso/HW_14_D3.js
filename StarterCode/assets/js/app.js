@@ -97,7 +97,7 @@ d3.csv("data.csv", function(err, censusRecord){
     chartGroup.append("text")
     .attr("transform", "rotate(-90)")
     .attr("y", 0 - margin.left)
-    .attr("x", 0 - (chartHeight / 1.5))
+    .attr("x", 0 - (chartHeight / 2))
     .attr("dy", "1em")
     .classed("axis-text", true)
     .text("Lacks Healthcare (%)");
